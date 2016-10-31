@@ -24,13 +24,9 @@ is possible but likely more involved.
 
 ```
 swig -c++ -d -d2 -o LeapD.cpp -wrapperlibrary LeapD Leap.i
-```
 
-```
 clang++ LeapD.cpp libLeap.dylib -shared -o libLeapD.dylib
-```
 
-```
 dmd Leap.d Leap_im.d -run Sample.d
 ```
 
@@ -44,3 +40,7 @@ frame id = 90367
 frame id = 90370
 ...
 ```
+
+In case you have trouble with SWIG or clang, the intermediate
+source files and binaries (at least for Xcode) are included
+here so you may skip to running `dmd` on OS X.
