@@ -44,3 +44,11 @@ frame id = 90370
 In case you have trouble with SWIG or clang, the intermediate
 source files and binaries (at least for Xcode) are included
 here so you may skip to running `dmd` on OS X.
+
+### License
+
+Sources files obtained from the Leap Motion SDK such as `Leap.i`
+are licensed under the Leap Motion SDK Agreement as indicated
+in their header comments. Unless otherwise specified, other
+content found here defaults to the Apache license as described
+in the `LICENSE` file.
